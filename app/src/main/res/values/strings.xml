@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SampleAppFroStudent</string>
+    <string name="catalog_activity_label">Catalog</string>
+    <string name="buttons_activity_label">Buttons</string>
+    <string name="text_fields_activity_label">Text fields</string>
+    <string name="sample_activity_label">Sample activity</string>
+    <string name="button_label">Button</string>
+    <string name="toggle_on_label">ON</string>
+    <string name="toggle_off_label">OFF</string>
+    <string name="checkbox_label">CheckBox</string>
+    <string name="radio_button_label_1">RadioButton 1</string>
+    <string name="radio_button_label_2">RadioButton 2</string>
+</resources>
