@@ -32,6 +32,11 @@
         <activity
             android:name=".TextFieldsActivity"
             android:label="@string/text_fields_activity_label" />
+
+        <!-- Описание BusinessCalculationActivity-->
+        <activity
+            android:name=".BusinessCalculationActivity"
+            android:label="@string/business_calculation" />
     </application>
 
 </manifest>
