@@ -37,6 +37,16 @@
         <activity
             android:name=".BusinessCalculationActivity"
             android:label="@string/business_calculation" />
+
+        <!-- Описание NotificationActivity-->
+        <activity
+            android:name=".NotificationActivity"
+            android:label="@string/notifications" />
+
+        <!-- Описание LifecycleActivity-->
+        <activity
+            android:name=".LifecycleActivity"
+            android:label="@string/lifecycle_activity" />
     </application>
 
 </manifest>

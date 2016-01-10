@@ -13,7 +13,7 @@ import android.widget.ArrayAdapter;
 public class CatalogActivity extends ListActivity implements AdapterView.OnItemClickListener {
 
     //список элементов для листа
-    String[] screens = {"First sample activity", "Buttons activity", "Text fields activity", "Business Calculation"};
+    String[] screens = {"First sample activity", "Buttons activity", "Text fields activity", "Business Calculation", "Notifications Activity", "Lifecycle Activity"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,6 +51,16 @@ public class CatalogActivity extends ListActivity implements AdapterView.OnItemC
             //нажатие на "Business Calculation"
             case 3:
                 intent.setClass(this, BusinessCalculationActivity.class);
+                break;
+
+            //нажатие на "Notifications Activity"
+            case 4:
+                intent.setClass(this, NotificationActivity.class);
+                break;
+
+            //нажатие на "Lifecycle Activity"
+            case 5:
+                intent.setClass(this, LifecycleActivity.class);
                 break;
         }
         //открываем выбранную нами активити

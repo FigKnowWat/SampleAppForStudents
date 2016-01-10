@@ -29,8 +29,10 @@ public class BusinessCalculationActivity extends AppCompatActivity implements Vi
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btn_calculaion:
-                int revenue = Integer.valueOf(revenueEditText.getText().toString());
-                int costs = Integer.valueOf(costsEditText.getText().toString());
+                long revenue = Long.valueOf(revenueEditText.getText().toString());
+                long costs = Long.valueOf(costsEditText.getText().toString());
+
+
                 break;
         }
     }
